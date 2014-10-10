@@ -4,7 +4,10 @@ Week 1 Phase 0
 
 10/10/2014
 
-So my first week of Phase 0 DBC is nearly completed and I can’t help but think to 2006 when I was a freshman in a software engineering. Back then, I had my first experience coding and learning a programming language. Back then I had problem with two things that git and GitHub would have help me with. Those are two things happen to be version control which git takes care of and collaborative work which GitHub helps you with. 
+So my first week of Phase 0 DBC is nearly completed and I can’t help but think to 2006 when I was a freshman in a software 
+engineering. Back then, I had my first experience coding and learning a programming language. Back then I had problem with two 
+things that git and GitHub would have help me with. Those are two things happen to be version control which git takes care of and 
+collaborative work which GitHub helps you with. 
 
 Looking back then I really didn’t have a good way to do version control. I would have dozens of file in a folder with the same 
 name with a “v” and some number at the end. It was really hard to keep track of what version of the file I worked on last or what 
