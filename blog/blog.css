@@ -21,12 +21,15 @@ body{
 }
 
 #header{
-    width: 100%;
-    height: 200px;
-    position: static;
+    display: block; 
+    position: fixed;
     background-color: #3B403D;
     color: #757F7A;
-    border-radius: 5px;
+    
+
+    height: 50px;
+    width: 100% ;
+    
 }
 .nav{
     float: left;
@@ -43,38 +46,45 @@ body{
 }
 
 #mid{
-   width:100%;
-   height: 60%;
-   padding: 10px 0 10px 0;
+  width:  75%;
+   
+    padding-top: 100px;
+     display: inline-block;
+
 }
 
 #nav_bar{
-    float: left;
-    width: 20%;
-    height: 630px;
-    padding: 5px 20px 5px 20px;
-     border-radius: 5px;
+   float: left;
+   width: 20%;
+   height: 100%;
+   border-radius: 5px;
+  background-color: #3B403D;
+    color: #757F7A;
+   margin: 1%
 }
 #nav_bar li{
     list-style: none;
 }
 
 #content{
-    float:left;
+    float:right;
     width: 70%;
-    height: 630px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
+    height: 80%;
+     border-radius: 5px;
+    margin-bottom: 10%;
+     padding-bottom: 5%;
+  
+    position: relative;
 }
 
 #footer{
+    width: 100%;
+    background-color: #757F7A;
     position: fixed;
     bottom: 0;
+    height: 40px;
+    display: block;
     clear: both;
-    width:100%;
-    height: 10%;
-    background-color: #757F7A;
-    border-radius: 5px;
 }
 a{
     color: #3B403D;
