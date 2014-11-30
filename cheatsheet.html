@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cheat.css">
+    <title>Cheat Sheet</title>
+  </head>
+  <body>
+    <div id="header">
+     <div id= "nav">
+        <ul>
+          <li><a href="about.html">Home</a></li>
+        </ul>
+    </div>
+  </div>
+  
+  <div id="content">
+  <h1>10 Facts about JavaScript Objects</h1>
+  <h4>Compiled By Rose Afriyie and Darrin Reeves</h4>
+  <ul>
+  <div id="leftside">
+    <li>
+      <h3>Fact 1: Objects Help Group Values</h3>
+      <p>Objects allow us to group values&mdash;including other objects&mdash;together and thus build more complex structures.</p>
+    </li>
+     <li>
+      <h3>Fact 2: Objects are like Octopuses.</h3>
+      <p>Objects are like octopuses with any number of tentacles, each of which has a name inscribed on it.</p>
+    </li>
+     <li>
+      <h3>Fact 3: Properties of a Value of an Object Can be Changed</h3>
+      <p>With objects, on the other hand, the content of a value can be modified by changing its properties.</p>
+    </li>
+     <li>
+      <h3>Fact 4: An Object is Not the Sum of its Parts</h3>
+      <p>JavaScript&rsquo;s == operator, when comparing objects, will return true only if both objects are precisely the same value. Comparing different objects will return false, even if they have identical contents. </p>
+    </li>
+     <li>
+      <h3>Fact 5: The Pitfalls of Objects As Maps</h3>
+      <p>To store all the correlations in an array, one can use objects with name and value properties. But that makes looking up the correlation for a given event somewhat cumbersome: you&rsquo;d have to loop over the whole array to find the object with the right name.</p>
+    </li>
+    </div>
+    
+    <div id = "rightside">
+    <li>
+      <h3>Fact 6: The Upside of Objects as Maps</h3>
+      <p> One can use object properties named after the event types. We can use the square bracket access notation to create and read the properties and can use the in operator to test whether a given property exists.</p>
+    </li>
+     <li>
+      <h3>Fact 7: The Amazing Loop Construct "in"</h3>
+      <p>JavaScript provides a loop construct specifically for going over the properties of an object. It looks a little like a normal for loop but distinguishes itself by the use of the word in. The same keyword can also be used in a for loop (for (var name in object)) to loop over an object&rsquo;s properties.</p>
+
+    </li>
+     <li>
+      <h3>Fact 8: Note what is NOT an Object</h3>
+      <p><p>Values of type string, number, and Boolean are not objects, and though the language doesn&rsquo;t complain if you try to set new properties on them, it doesn&rsquo;t actually store those properties. The values are immutable and cannot be changed.</p></p>
+    </li>
+     <li>
+      <h3>Fact 9: The Array Object</h3>
+      <p>Objects tend to use names for their properties and store more or less a fixed set of them. Arrays, on the other hand, usually contain varying numbers of conceptually identical values and use numbers (starting from 0) as the names of their properties.</p>
+    </li>
+     <li>
+      <h3>Fact 10: What's "this" All About?</h3>
+      <p>`this` is an object -- similar to Ruby's self -- is the object that I am in right now.</p> 
+           <xml>
+            In the example below, 'this' refers to the variable and not the argument because it can only be called on an object.
+            var Decisions {
+            var currentPath = somepath;
+            function getNewPath(currentPath){
+            this.currentPath = currentPath;
+          </xml>
+    </li>
+    </div>
+  </ul>
+  <p>Source of all Facts 1-9:<a href="http://eloquentjavascript.net/04_data.html">Eloquent Java Script</a> </p>
+  </div>
+  </body>
+</html>
